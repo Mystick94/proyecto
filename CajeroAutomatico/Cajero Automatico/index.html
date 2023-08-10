@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cajero.js" defer></script>
+</head>
+<body> 
+   <div class="login">
+    <form action="">
+    <h1> ATH </h1>
+    <label for="">User</label>
+    <input type="text" name="user" id="">
+    <label for="">Password</label>
+    <input type="password" name="Password" id="">
+    <input type="button" value="Login" id="bt1" onclick="login(this.form)">
+    </form>  
+   </div>
+   <div class="cuenta" style="display: none;">
+    <h1>Bienvenido a tu Banco Online</h1>
+    <label for="">Cuenta Principal</label>
+    <input type="number" name="cantidad1" id="c1" readonly>
+    <label for="">Cuenta Ahorros</label>
+    <input type="number" name="cantidad2" id="c2" readonly>
+    <form action="">
+        <h2>Transferencias</h2>
+        <input type="text" name="Deposit" id="cant" placeholder="Depositar">
+        <input type="text" name="Obtain" id="retiro" placeholder="Retirar">
+        <hr>
+        <input type="button" value="Tranferencia de cuenta Ahorros a Principal" id="bt2" onclick="formula1()">
+        <input type="button" value="Tranferencia de cuenta Principal a Ahorros" id="bt3" onclick="formula2()">
+        <input type="button" value="Depositar cuenta Principal" id="bt4" onclick="formula3()">
+        <input type="button" value="Depositar cuenta Ahorros" id="bt5" onclick="formula4()">
+        <input type="button" value="Retirar de cuenta Principal" id="bt6" onclick="formula5()">
+        <input type="button" value="Retirar de cuenta Ahorros" id="bt7" onclick="formula6()">
+    </form>
+  </div>
+</body>
+</html>

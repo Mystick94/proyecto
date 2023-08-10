@@ -1,0 +1,66 @@
+/**/
+body {
+background-color: white;
+font-size: 40px;
+}
+
+h1 {
+    color: gold;
+    font-size: 40px;
+}
+input {
+    font-size: 20px;
+}
+label {
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+#bt1 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+#bt2 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+#bt3 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+#bt4 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+#bt5 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+#bt6 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+#bt7 {
+    background-color: gold;
+    text-decoration: underline;
+    color: black;
+    align-items: end;
+}
+
+
+    
+
+
+
